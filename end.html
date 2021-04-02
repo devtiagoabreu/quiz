@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../quiz/style.css">
+  <link 
+    rel="stylesheet" 
+    href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" 
+    integrity="sha234-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" 
+    crossorigin="anonymous"
+  >
+  <title>Fim do Jogo</title>
+</head>
+<body>
+  <div class="container">
+    <div class="flex-center flex-column" id="end">
+      <h1 id="finalScore">0</h1>
+      <form class="end-form-container" action="" >
+        <h2 id="end-text">Salve sua pontuação</h2>
+        <input type="text" name="name" id="username" placeholder="Insira seu nome">
+        <button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" disabled>Salvar</button>
+      </form>
+      <a href="../quiz/game.html" class="btn">Jogar novamente</a>
+      <a href="../quiz/" class="btn">Página inicial</a>
+    </div>
+
+  </div>
+</body>
+</html>
